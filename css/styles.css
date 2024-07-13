@@ -432,13 +432,13 @@ textarea {
 }
 
 .mainCarrito {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .carritoCompras {
     margin-top: 50px;
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
 
