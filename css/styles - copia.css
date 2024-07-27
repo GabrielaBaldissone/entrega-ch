@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-style-css{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color:#d0d5d86a;
+}
+
+
+/* STYLE DE NAV */
+
+.nav.nav-tabs{
+    width: 100%;
+    background-color: white;
+}
+
+li.nav-item{
+    width: 20%;
+    font-size: 13px;
+    padding: 0;
+    text-align: center;
+    align-content: center;
+}
+
+a.nav-link{
+    padding: 5px;
+    color: hsl(264, 71%, 67%);
+}
+
+.nav-link.active{
+    width: 40%;
+}
+
+/* STYLE DE MAIN - SECTIONS */
+
+.main-style{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.section-style {
+    width: 75%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.article-style{
+    margin: 10px;
+    padding: 10px;    
+    background-color:#ffffff;
+}
+
+.articulos{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.articulos:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+
+.description-style {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.description-style p {
+    margin-bottom: 5px;  
+}
+
+.prices-style{
+    color: black;
+    font-style: normal;
+    padding-top: 5px;
+}
+
+.discount-style{
+    color: #00A650;
+}
+
+.name-style{
+    color:#2a2929e3;
+}
+
+/* STYLE DE FORM - EMAIL */
+
+.form-email {
+    background-color: #2a2929;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.email-label {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+#email {
+    height: 25px;
+    width: 50%;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 12px;
+}
+
+.send {
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border: none;
+    margin-left: 5px;
+}
+
+/* STYLE DE FOOTER */
+
+footer h4 {
+    color: #666;
+    margin-bottom: 2%;
+    font-size: 14px;
+    margin-top: 2px
+}
+
+.footerSection {
+    text-align: center;
+    padding: 5px;
+}
+
+section i {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    color: black;
+}
+
+.footerSection a{
+    text-decoration: none;
+}
+
+.fa-facebook, .fa-instagram, .fa-youtube{
+    font-size: 20px;
+    color: black;
+}
+
+.contact-style{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.copyring-style{
+    font-size: 10px;
+    margin-left: 5px;
+    color: black;
+    margin-bottom: 0;
+}
+
+/* STYLE BODY */
+
+.descripcion-producto{
+    width: 80%;
+    text-align: center;
+}
+
+.button-compra{
+    width: 40%;
+    background-color: #00A650;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: none;
+}
+
+.button-pago{
+    width: 40%;
+    background-color: #00A650;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 30%;
+    border: none;
+}
+
+.button-pago:hover{
+    background-color: hsla(139, 100%, 50%, 0.948);  
+}
+
+.continuar-comprando{
+    width: 40%;
+    background-color: rgba(112, 126, 122, 0);
+    text-align: center;
+    margin-left: 30%;
+    border: 1px solid rgb(223, 119, 232);
+}
+
+.continuar-comprando:hover{
+    background-color: hsla(264, 71%, 67%, 0.833);  
+}
+
+
+.cantidad{
+    width: 20%;
+    text-align: center;
+}
+
+
+.login {
+    background-color: #d0d5d8;
+}
+
+.iniciar-sesion {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.user-icon{
+    margin: 0 auto;
+    margin-top: 7px;
+    background-color: white;
+    text-align: center;
+    border-radius: 150px 150px 0 0;
+    height: 50px;
+    width: 70px;
+    color: #b29f91;
+}
+
+.userline{
+    margin-top: 15px;
+    font-size: 38px;
+}
+
+
+.login-box{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.form-login{
+    text-align: center;
+    color: rgb(116, 114, 114);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.descripcion{
+    font-size: 16px; 
+    font-style: italic;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.login-span{
+    color: red;
+}
+
+input {
+    margin: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+textarea {
+    width: 90%;
+    height: 50%
+}
+
+.checkbox{
+    width: 17px;
+    height: 14px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.submit{
+    background-color: #bfbdc0;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    width: 50%;
+    border-color:  #bfbdc0;
+
+}
+
+.submit:hover{
+    background-color: hsla(264, 71%, 67%, 0.833);
+    color: black;
+}
+
+.ancla {
+    font-size: 15px;
+    margin: 7px;
+    color: #3f3f3f;
+    text-align: center;
+    display: block;
+}
+
+.desc{
+    display: block;
+}
+
+.mainCarrito {
+    margin-top: 10px;
+
+}
+
+.carritoCompras {
+    margin-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* BREAKPOINTS - MEDIAS QUERIES */
+
+/* TABLETS */
+
+@media (min-width: 480px) {
+
+/* STYLE DE NAV */
+
+li.nav-item{
+    width: 20%;
+    font-size: 14px;
+}
+
+.nav-link.active{
+    width: 40%;
+}
+
+/* STYLE DE MAIN - SECTIONS */
+
+.main-style{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.section-style {   
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+.article-style{
+    width: 45%;
+}
+
+/* STYLE DE FORM - EMAIL */
+
+.email-label {
+    font-size: 16px;
+    width: 70%;
+}
+
+#email {
+    height: 25px;
+    width: 50%;
+}
+
+/* STYLE DE FOOTER */
+
+.footer-style{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    font-size: 16px;
+}
+
+.footerSection {
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+
+.contact-style{
+    font-size: 14px;
+}
+
+.copyring-style{
+    font-size: 12px;
+}
+
+/* STYLE DE LOGIN */
+
+.login-box{
+    width: 70%;
+    height: 60%;
+}
+
+
+input {
+    width: 90%;
+}
+
+textarea {
+    width: 95%;
+    height: 50%
+}
+
+.mainCarrito {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carritoCompras {
+    margin-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.button-compra{
+    width: 30%;
+}
+
+.button-pago{
+    width: 30%;
+}
+
+.continuar-comprando{
+    width: 30%;
+}
+.input-center{
+    text-align: center;
+    margin-right: 25%;
+}
+
+/* DESKTOP */
+
+@media (min-width: 769px) {
+
+/* STYLE DE NAV */
+
+li.nav-item{
+    font-size: 18px;
+}
+
+.nav-link.active{
+    width: 25%;
+}
+
+/* STYLE DE MAIN - SECTIONS */
+
+.article-style{
+    width: 30%;
+}
+
+.description-style {
+    font-size: 16px;
+}
+
+/* STYLE DE FORM - EMAIL */
+
+.form-email{
+    justify-content:center;
+}
+.email-label {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#email {
+    height: 25px;
+    width: 60%;
+}
+
+/* STYLE DE FOOTER */
+
+footer h4 {
+    font-size: 18px;
+}
+
+.email-label {
+    font-size: 18px;
+    width: 30%
+}
+
+.form-email {
+    text-align: center;
+    padding: 10px;
+}
+
+#email {
+    height: 34px;
+    width: 50%;
+}
+
+.send {
+    padding: 8px 8px;
+    font-size: 14px;
+}
+
+.footerSection {
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.contact-style{
+    font-size: 16px;
+}
+
+.copyring-style{
+    font-size: 14px;
+}
+
+/* STYLE DE LOGIN */
+
+.login-box{
+    width: 30%;
+    height: 40%;
+}
+
+input {
+    width: 80%;
+}
+
+textarea {
+    width: 90%;
+    height: 60%
+}
+.button-compra{
+    width: 20%;
+}
+
+.button-pago{
+    width: 20%;
+}
+
+.continuar-comprando{
+    width: 20%;
+}
+
+.articulos{
+    width: 40%;
+    margin: 0 auto;
+}
+}
+}
