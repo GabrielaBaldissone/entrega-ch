@@ -1,3 +1,24 @@
-header{
-    background-color: azul;
+/* Fuente del sitio */
+@import "./base/fonts";
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+@import "./utilities/variables";
+
+@import "./layout/header";
+
+@import "./layout/main-sections";
+
+@import "./layout/main-contactos";
+
+@import "./layout/main-carrito";
+
+@import "./layout/main-detalles";
+
+@import "./layout/footer";
+
+
+

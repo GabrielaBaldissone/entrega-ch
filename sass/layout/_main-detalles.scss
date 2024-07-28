@@ -1,0 +1,35 @@
+.articulos{
+    width: 70%;
+    margin: 0 auto;
+
+    .descripcion{
+        font-size: 16px; 
+        font-style: italic;
+        margin-left: 10px;
+        text-align: center;
+
+        .discount-style{
+            color: $color-discount;
+        }
+        .bold{
+            font-weight: 600;
+        }
+    }
+}
+
+.center {
+    text-align: center;
+    input {
+        margin: 5px;
+        width: 80%;
+        height: 30px;
+    }
+    .button-compra{
+        width: 40%;
+        background-color: #00A650;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        border: none;
+    }
+}
+

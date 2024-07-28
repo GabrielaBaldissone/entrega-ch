@@ -1,0 +1,82 @@
+.user-icon{
+    margin: 0 auto;
+    margin-top: 7px;
+    background-color: white;
+    text-align: center;
+    border-radius: 150px 150px 0 0;
+    height: 50px;
+    width: 70px;
+    color: #b29f91;
+
+    .userline{
+        margin-top: 15px;
+        font-size: 38px;
+    }
+}
+
+.login-box{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 0 auto;
+
+    .form-login{
+        text-align: center;
+        color: rgb(116, 114, 114);
+        padding: 20px;
+        margin-bottom: 20px;
+
+        label{
+            font-size: 14px;
+        }
+
+        .login-span{
+            color: red;
+        }
+
+        input {
+            margin: 5px;
+            width: 80%;
+            height: 30px;
+        }
+        
+        textarea {
+            width: 90%;
+            height: 50%
+        }
+        ::placeholder{
+            text-align: center;
+            font-size: 12px;
+        }
+        .center {
+            text-align: center;
+
+            .submit{
+            font-size: 14px;
+            background-color: #bfbdc0;
+            color: white;
+            font-weight: 500;
+            border-radius: 20px;
+            width: 60%;
+            border-color:  #bfbdc0;
+                &:hover{
+                    background-color: hsla(264, 71%, 67%, 0.833);
+                    color: black;
+                }   
+            }
+        }
+        .ancla {
+            font-size: 12px;
+            margin: 7px;
+            color: #3f3f3f;
+            text-align: center;
+            display: block;
+        }
+        .checkbox{
+            width: 17px;
+            height: 14px;
+        }
+        
+    }
+}

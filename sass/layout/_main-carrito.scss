@@ -1,0 +1,77 @@
+.mainCarrito {
+    margin-top: 10px;
+
+    .carritoCompras {
+        margin-top: 50px;
+        width: 80%;
+        margin: 0 auto;
+
+        .descripcion{
+            font-size: 16px; 
+            font-style: italic;
+            margin-left: 10px;
+            text-align: center;
+
+            .prices-style{
+                color: black;
+                font-style: normal;
+                padding-top: 5px;
+            }
+            
+            .discount-style{
+                color: $color-discount;
+            }
+        }
+        .center {
+            text-align: center;
+            .cantidad{
+                width: 20%;
+                text-align: center;
+            }
+        }
+        i {
+            text-align: center;
+            font-size: 18px;
+            padding: 5px;
+            color: black;
+        }
+        input {
+            margin: 5px;
+        }
+    }
+
+}
+
+.input-center{
+    text-align: center;
+    margin-right: 25%;
+    
+    .button-pago{
+        width: 60%;
+        background-color: #00A650;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-left: 30%;
+        border: none;
+        &:hover{
+            background-color: hsla(139, 100%, 50%, 0.948); 
+        }
+    }
+    
+    .continuar-comprando{
+        width: 60%;
+        background-color: rgba(112, 126, 122, 0);
+        text-align: center;
+        margin-left: 30%;
+        border: 1px solid rgb(223, 119, 232);
+        &:hover{
+            background-color: hsla(264, 71%, 67%, 0.833);  
+        }
+    }
+
+    input {
+        margin: 5px;
+    }
+    
+    
+}

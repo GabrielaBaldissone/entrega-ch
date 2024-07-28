@@ -21,8 +21,8 @@
 }
 
 li.nav-item{
-    width: 20%;
-    font-size: 13px;
+    width: 15%;
+    font-size: 10px;
     padding: 0;
     text-align: center;
     align-content: center;
@@ -34,7 +34,7 @@ a.nav-link{
 }
 
 .nav-link.active{
-    width: 40%;
+    width: 50%;
 }
 
 /* STYLE DE MAIN - SECTIONS */
@@ -347,7 +347,7 @@ textarea {
 /* STYLE DE NAV */
 
 li.nav-item{
-    width: 20%;
+    width: 15%;
     font-size: 14px;
 }
 
@@ -458,6 +458,8 @@ textarea {
     margin-right: 25%;
 }
 
+}
+
 /* DESKTOP */
 
 @media (min-width: 769px) {
@@ -465,7 +467,7 @@ textarea {
 /* STYLE DE NAV */
 
 li.nav-item{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .nav-link.active{
@@ -572,5 +574,5 @@ textarea {
     width: 40%;
     margin: 0 auto;
 }
-}
+
 }

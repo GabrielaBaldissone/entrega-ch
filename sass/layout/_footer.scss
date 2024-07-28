@@ -1,0 +1,71 @@
+footer {
+    .form-email {
+        background-color: #2a2929;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .email-label {
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            padding-right: 10px;
+            display: flex;
+            text-align: center;
+            width: 70%;
+        }
+        #email {
+            height: 25px;
+            width: 50%;
+        }
+        ::placeholder{
+            text-align: center;
+            font-size: 12px;
+        }
+        .send {
+            padding: 5px 5px;
+            background-color: black;
+            color: white;
+            font-size: 11px;
+            border: none;
+            margin-left: 5px;
+        }
+    }
+    h4 {
+        color: #666;
+        margin-bottom: 2%;
+        font-size: 14px;
+        margin-top: 2px
+    } 
+    section {
+        i {
+        text-align: center;
+        font-size: 18px;
+        padding: 5px;
+        color: black;
+        }
+    }
+    .footerSection {
+        text-align: center;
+        padding: 5px;
+        a {
+            text-decoration: none;
+            .fa-facebook, .fa-instagram, .fa-youtube{
+                font-size: 20px;
+                color: black;
+            }
+        }
+        .contact-style{
+            font-size: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            color: black;
+        }
+    }
+    .copyring-style{
+        font-size: 10px;
+        margin-left: 5px;
+        color: black;
+        margin-bottom: 0;
+    }
+}

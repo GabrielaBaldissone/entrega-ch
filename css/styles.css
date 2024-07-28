@@ -1,578 +1,254 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+/* Fuente del sitio */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
-    margin: 0px;
-    padding: 0px;
-}
+  margin: 0px;
+  padding: 0px; }
 
-.body-style-css{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    background-color:#d0d5d86a;
-}
-
-
-/* STYLE DE NAV */
-
-.nav.nav-tabs{
+.body-style-css {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  background-color: #d0d5d86a; }
+  .body-style-css .nav.nav-tabs {
     width: 100%;
-    background-color: white;
-}
+    background-color: white; }
+    .body-style-css .nav.nav-tabs .nav-item {
+      width: 15%;
+      font-size: 10px;
+      padding: 0;
+      text-align: center;
+      align-content: center; }
+      .body-style-css .nav.nav-tabs .nav-item .nav-link {
+        padding: 5px;
+        color: #9f6fe7; }
+      .body-style-css .nav.nav-tabs .nav-item .nav-link.active {
+        width: 60%; }
+  .body-style-css img {
+    width: 100%; }
 
-li.nav-item{
-    width: 15%;
-    font-size: 10px;
-    padding: 0;
-    text-align: center;
-    align-content: center;
-}
-
-a.nav-link{
-    padding: 5px;
-    color: hsl(264, 71%, 67%);
-}
-
-.nav-link.active{
-    width: 50%;
-}
-
-/* STYLE DE MAIN - SECTIONS */
-
-.main-style{
-    margin: 0 auto;
-    width: 90%;
-}
-
-.section-style {
+.main-style {
+  margin: 0 auto;
+  width: 90%; }
+  .main-style .section-style {
     width: 75%;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
+    .main-style .section-style .article-style {
+      margin: 10px;
+      padding: 10px;
+      background-color: #ffffff; }
+      .main-style .section-style .article-style img {
+        width: 100%; }
+      .main-style .section-style .article-style .description-style {
+        color: white;
+        font-size: 14px;
+        text-align: center; }
+        .main-style .section-style .article-style .description-style p {
+          margin-bottom: 5px; }
+        .main-style .section-style .article-style .description-style .prices-style {
+          color: black;
+          font-style: normal;
+          padding-top: 5px; }
+        .main-style .section-style .article-style .description-style .discount-style {
+          color: #00A650; }
+        .main-style .section-style .article-style .description-style .name-style {
+          color: #2a2929e3; }
 
-img{
-    width: 100%;
-}
+.user-icon {
+  margin: 0 auto;
+  margin-top: 7px;
+  background-color: white;
+  text-align: center;
+  border-radius: 150px 150px 0 0;
+  height: 50px;
+  width: 70px;
+  color: #b29f91; }
+  .user-icon .userline {
+    margin-top: 15px;
+    font-size: 38px; }
 
-.article-style{
-    margin: 10px;
-    padding: 10px;    
-    background-color:#ffffff;
-}
-
-.articulos{
-    width: 70%;
-    margin: 0 auto;
-}
-
-.articulos:hover{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-
-}
-
-.description-style {
-    color: white;
-    font-size: 14px;
+.login-box {
+  background-color: white;
+  width: 60%;
+  height: 50%;
+  border-radius: 20px;
+  margin: 0 auto; }
+  .login-box .form-login {
     text-align: center;
+    color: #747272;
+    padding: 20px;
+    margin-bottom: 20px; }
+    .login-box .form-login label {
+      font-size: 14px; }
+    .login-box .form-login .login-span {
+      color: red; }
+    .login-box .form-login input {
+      margin: 5px;
+      width: 80%;
+      height: 30px; }
+    .login-box .form-login textarea {
+      width: 90%;
+      height: 50%; }
+    .login-box .form-login ::placeholder {
+      text-align: center;
+      font-size: 12px; }
+    .login-box .form-login .center {
+      text-align: center; }
+      .login-box .form-login .center .submit {
+        font-size: 14px;
+        background-color: #bfbdc0;
+        color: white;
+        font-weight: 500;
+        border-radius: 20px;
+        width: 60%;
+        border-color: #bfbdc0; }
+        .login-box .form-login .center .submit:hover {
+          background-color: rgba(159, 111, 231, 0.833);
+          color: black; }
+    .login-box .form-login .ancla {
+      font-size: 12px;
+      margin: 7px;
+      color: #3f3f3f;
+      text-align: center;
+      display: block; }
+    .login-box .form-login .checkbox {
+      width: 17px;
+      height: 14px; }
 
-}
+.mainCarrito {
+  margin-top: 10px; }
+  .mainCarrito .carritoCompras {
+    margin-top: 50px;
+    width: 80%;
+    margin: 0 auto; }
+    .mainCarrito .carritoCompras .descripcion {
+      font-size: 16px;
+      font-style: italic;
+      margin-left: 10px;
+      text-align: center; }
+      .mainCarrito .carritoCompras .descripcion .prices-style {
+        color: black;
+        font-style: normal;
+        padding-top: 5px; }
+      .mainCarrito .carritoCompras .descripcion .discount-style {
+        color: #00A650; }
+    .mainCarrito .carritoCompras .center {
+      text-align: center; }
+      .mainCarrito .carritoCompras .center .cantidad {
+        width: 20%;
+        text-align: center; }
+    .mainCarrito .carritoCompras i {
+      text-align: center;
+      font-size: 18px;
+      padding: 5px;
+      color: black; }
+    .mainCarrito .carritoCompras input {
+      margin: 5px; }
 
-.description-style p {
-    margin-bottom: 5px;  
-}
-
-.prices-style{
+.input-center {
+  text-align: center;
+  margin-right: 25%; }
+  .input-center .button-pago {
+    width: 60%;
+    background-color: #00A650;
     color: black;
-    font-style: normal;
-    padding-top: 5px;
-}
+    text-align: center;
+    margin-left: 30%;
+    border: none; }
+    .input-center .button-pago:hover {
+      background-color: rgba(0, 255, 81, 0.948); }
+  .input-center .continuar-comprando {
+    width: 60%;
+    background-color: rgba(112, 126, 122, 0);
+    text-align: center;
+    margin-left: 30%;
+    border: 1px solid #df77e8; }
+    .input-center .continuar-comprando:hover {
+      background-color: rgba(159, 111, 231, 0.833); }
+  .input-center input {
+    margin: 5px; }
 
-.discount-style{
-    color: #00A650;
-}
+.articulos {
+  width: 70%;
+  margin: 0 auto; }
+  .articulos .descripcion {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 10px;
+    text-align: center; }
+    .articulos .descripcion .discount-style {
+      color: #00A650; }
+    .articulos .descripcion .bold {
+      font-weight: 600; }
 
-.name-style{
-    color:#2a2929e3;
-}
+.center {
+  text-align: center; }
+  .center input {
+    margin: 5px;
+    width: 80%;
+    height: 30px; }
+  .center .button-compra {
+    width: 40%;
+    background-color: #00A650;
+    color: black;
+    text-align: center;
+    border: none; }
 
-/* STYLE DE FORM - EMAIL */
-
-.form-email {
-    background-color: #2a2929;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.email-label {
+footer .form-email {
+  background-color: #2a2929;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  footer .form-email .email-label {
     color: white;
     font-size: 14px;
     font-weight: 500;
     padding-right: 10px;
     display: flex;
-    justify-content: center;
-    width: 70%;
-}
-
-#email {
-    height: 25px;
-    width: 50%;
-}
-
-::placeholder{
     text-align: center;
-    font-size: 12px;
-}
-
-.send {
+    width: 70%; }
+  footer .form-email #email {
+    height: 25px;
+    width: 50%; }
+  footer .form-email ::placeholder {
+    text-align: center;
+    font-size: 12px; }
+  footer .form-email .send {
     padding: 5px 5px;
     background-color: black;
     color: white;
     font-size: 11px;
     border: none;
-    margin-left: 5px;
-}
-
-/* STYLE DE FOOTER */
+    margin-left: 5px; }
 
 footer h4 {
-    color: #666;
-    margin-bottom: 2%;
-    font-size: 14px;
-    margin-top: 2px
-}
+  color: #666;
+  margin-bottom: 2%;
+  font-size: 14px;
+  margin-top: 2px; }
 
-.footerSection {
-    text-align: center;
-    padding: 5px;
-}
+footer section i {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  color: black; }
 
-section i {
-    text-align: center;
-    font-size: 18px;
-    padding: 5px;
-    color: black;
-}
-
-.footerSection a{
-    text-decoration: none;
-}
-
-.fa-facebook, .fa-instagram, .fa-youtube{
-    font-size: 20px;
-    color: black;
-}
-
-.contact-style{
+footer .footerSection {
+  text-align: center;
+  padding: 5px; }
+  footer .footerSection a {
+    text-decoration: none; }
+    footer .footerSection a .fa-facebook, footer .footerSection a .fa-instagram, footer .footerSection a .fa-youtube {
+      font-size: 20px;
+      color: black; }
+  footer .footerSection .contact-style {
     font-size: 10px;
     margin-left: 5px;
     margin-bottom: 5px;
-    color: black;
-}
-
-.copyring-style{
-    font-size: 10px;
-    margin-left: 5px;
-    color: black;
-    margin-bottom: 0;
-}
-
-/* STYLE BODY */
-
-.descripcion-producto{
-    width: 80%;
-    text-align: center;
-}
-
-.button-compra{
-    width: 40%;
-    background-color: #00A650;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border: none;
-}
-
-.button-pago{
-    width: 40%;
-    background-color: #00A650;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-left: 30%;
-    border: none;
-}
-
-.button-pago:hover{
-    background-color: hsla(139, 100%, 50%, 0.948);  
-}
-
-.continuar-comprando{
-    width: 40%;
-    background-color: rgba(112, 126, 122, 0);
-    text-align: center;
-    margin-left: 30%;
-    border: 1px solid rgb(223, 119, 232);
-}
-
-.continuar-comprando:hover{
-    background-color: hsla(264, 71%, 67%, 0.833);  
-}
-
-
-.cantidad{
-    width: 20%;
-    text-align: center;
-}
-
-
-.login {
-    background-color: #d0d5d8;
-}
-
-.iniciar-sesion {
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    margin: 15px;
-}
-
-.user-icon{
-    margin: 0 auto;
-    margin-top: 7px;
-    background-color: white;
-    text-align: center;
-    border-radius: 150px 150px 0 0;
-    height: 50px;
-    width: 70px;
-    color: #b29f91;
-}
-
-.userline{
-    margin-top: 15px;
-    font-size: 38px;
-}
-
-
-.login-box{
-    background-color: white;
-    width: 60%;
-    height: 50%;
-    border-radius: 20px;
-    margin: 0 auto;
-}
-
-.form-login{
-    text-align: center;
-    color: rgb(116, 114, 114);
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.descripcion{
-    font-size: 16px; 
-    font-style: italic;
-    margin-left: 10px;
-    text-align: center;
-}
-
-.login-span{
-    color: red;
-}
-
-input {
-    margin: 5px;
-    width: 80%;
-    height: 30px;
-}
-
-textarea {
-    width: 90%;
-    height: 50%
-}
-
-.checkbox{
-    width: 17px;
-    height: 14px;
-}
-
-.center {
-    text-align: center;
-}
-
-
-.submit{
-    background-color: #bfbdc0;
-    color: white;
-    font-weight: 500;
-    border-radius: 20px;
-    width: 50%;
-    border-color:  #bfbdc0;
-
-}
-
-.submit:hover{
-    background-color: hsla(264, 71%, 67%, 0.833);
-    color: black;
-}
-
-.ancla {
-    font-size: 15px;
-    margin: 7px;
-    color: #3f3f3f;
-    text-align: center;
-    display: block;
-}
-
-.desc{
-    display: block;
-}
-
-.mainCarrito {
-    margin-top: 10px;
-
-}
-
-.carritoCompras {
-    margin-top: 50px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-
-/* BREAKPOINTS - MEDIAS QUERIES */
-
-/* TABLETS */
-
-@media (min-width: 480px) {
-
-/* STYLE DE NAV */
-
-li.nav-item{
-    width: 15%;
-    font-size: 14px;
-}
-
-.nav-link.active{
-    width: 40%;
-}
-
-/* STYLE DE MAIN - SECTIONS */
-
-.main-style{
-    margin: 0 auto;
-    width: 90%;
-}
-
-.section-style {   
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: center;
-}
-
-.article-style{
-    width: 45%;
-}
-
-/* STYLE DE FORM - EMAIL */
-
-.email-label {
-    font-size: 16px;
-    width: 70%;
-}
-
-#email {
-    height: 25px;
-    width: 50%;
-}
-
-/* STYLE DE FOOTER */
-
-.footer-style{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer h4 {
-    font-size: 16px;
-}
-
-.footerSection {
-    text-align: center;
-    padding: 5px;
-    width: 33%;
-}
-
-::placeholder{
-    font-size: 14px;
-}
-
-.contact-style{
-    font-size: 14px;
-}
-
-.copyring-style{
-    font-size: 12px;
-}
-
-/* STYLE DE LOGIN */
-
-.login-box{
-    width: 70%;
-    height: 60%;
-}
-
-
-input {
-    width: 90%;
-}
-
-textarea {
-    width: 95%;
-    height: 50%
-}
-
-.mainCarrito {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.carritoCompras {
-    margin-top: 50px;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.button-compra{
-    width: 30%;
-}
-
-.button-pago{
-    width: 30%;
-}
-
-.continuar-comprando{
-    width: 30%;
-}
-.input-center{
-    text-align: center;
-    margin-right: 25%;
-}
-
-}
-
-/* DESKTOP */
-
-@media (min-width: 769px) {
-
-/* STYLE DE NAV */
-
-li.nav-item{
-    font-size: 17px;
-}
-
-.nav-link.active{
-    width: 25%;
-}
-
-/* STYLE DE MAIN - SECTIONS */
-
-.article-style{
-    width: 30%;
-}
-
-.description-style {
-    font-size: 16px;
-}
-
-/* STYLE DE FORM - EMAIL */
-
-.form-email{
-    justify-content:center;
-}
-.email-label {
-    font-size: 20px;
-    margin-top: 5px;
-}
-
-#email {
-    height: 25px;
-    width: 60%;
-}
-
-/* STYLE DE FOOTER */
-
-footer h4 {
-    font-size: 18px;
-}
-
-.email-label {
-    font-size: 18px;
-    width: 30%
-}
-
-.form-email {
-    text-align: center;
-    padding: 10px;
-}
-
-#email {
-    height: 34px;
-    width: 50%;
-}
-
-.send {
-    padding: 8px 8px;
-    font-size: 14px;
-}
-
-.footerSection {
-    text-align: center;
-    padding: 5px;
-    width: 33%;
-}
-
-::placeholder{
-    font-size: 16px;
-}
-
-.contact-style{
-    font-size: 16px;
-}
-
-.copyring-style{
-    font-size: 14px;
-}
-
-/* STYLE DE LOGIN */
-
-.login-box{
-    width: 30%;
-    height: 40%;
-}
-
-input {
-    width: 80%;
-}
-
-textarea {
-    width: 90%;
-    height: 60%
-}
-.button-compra{
-    width: 20%;
-}
-
-.button-pago{
-    width: 20%;
-}
-
-.continuar-comprando{
-    width: 20%;
-}
-
-.articulos{
-    width: 40%;
-    margin: 0 auto;
-}
-
-}
+    color: black; }
+
+footer .copyring-style {
+  font-size: 10px;
+  margin-left: 5px;
+  color: black;
+  margin-bottom: 0; }
