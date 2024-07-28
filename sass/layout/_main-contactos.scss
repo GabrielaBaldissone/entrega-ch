@@ -1,7 +1,7 @@
 .user-icon{
     margin: 0 auto;
     margin-top: 7px;
-    background-color: white;
+    background-color: map-get($colores, color1 );
     text-align: center;
     border-radius: 150px 150px 0 0;
     height: 50px;
@@ -15,7 +15,7 @@
 }
 
 .login-box{
-    background-color: white;
+    background-color: map-get($colores, color1 );
     width: 60%;
     height: 50%;
     border-radius: 20px;
@@ -55,14 +55,14 @@
             .submit{
             font-size: 14px;
             background-color: #bfbdc0;
-            color: white;
+            color: map-get($colores, color1 );
             font-weight: 500;
             border-radius: 20px;
             width: 60%;
             border-color:  #bfbdc0;
                 &:hover{
                     background-color: hsla(264, 71%, 67%, 0.833);
-                    color: black;
+                    color: map-get($colores, color2 );
                 }   
             }
         }
@@ -78,8 +78,8 @@
             height: 14px;
         }
         .desc{
-            display: block;
-        }
+    display: block;
+}
         
     }
 }

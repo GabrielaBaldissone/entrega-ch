@@ -9,21 +9,26 @@
         .article-style{
             margin: 10px;
             padding: 10px;    
-            background-color:#ffffff;
-
+            background-color: map-get($colores, color1 );
+            &:hover{
+                transform: scale(1.05);
+            }
+            a {
+                text-decoration: none; 
+            }
             img{
                 width: 100%;
             }
 
             .description-style {
-                color: white;
+                color: map-get($colores, color1 );
                 font-size: 14px;
                 text-align: center;
                 p {
                     margin-bottom: 5px; 
                 }
                 .prices-style{
-                    color: black;
+                    color: map-get($colores, color2 );
                     font-style: normal;
                     padding-top: 5px;
                 }
