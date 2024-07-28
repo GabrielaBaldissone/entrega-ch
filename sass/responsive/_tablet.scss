@@ -1,0 +1,116 @@
+@media (min-width: 480px) {
+
+// NAV
+
+.body-style-css{
+        .nav.nav-tabs {
+            .nav-item{
+            width: 15%;
+            font-size: 14px;
+                .nav-link.active{
+                    width: 50%;
+                }
+            }
+        }
+}
+
+//MAIN - SECTIONS
+
+    .main-style{
+        margin: 0 auto;
+        width: 90%;
+
+        .section-style {   
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            justify-content: center;
+
+            .article-style{
+                width: 45%;
+            }
+        }
+    }
+
+//FOOTER
+
+footer {
+    .form-email{
+        ::placeholder{
+            font-size: 14px;
+        }
+        .email-label {
+            justify-content: center;
+            font-size: 14px;
+            width: 70%;
+        }
+        
+        #email {
+            height: 25px;
+            width: 50%;
+        }
+    }
+    .footer-style{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerSection {
+        text-align: center;
+        padding: 5px;
+        width: 33%;
+        h4 {
+        font-size: 16px;
+        }
+        .contact-style{
+            font-size: 12px;
+        }
+
+    }
+}
+
+//LOGIN
+
+.login-box{
+    width: 50%;
+    height: 60%;
+    input {
+        width: 90%;
+    }
+    textarea {
+        width: 95%;
+        height: 50%
+    }
+}
+
+.mainCarrito {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .carritoCompras {
+        margin-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.input-center{
+    text-align: center;
+    margin-right: 25%;
+    .button-compra{
+        width: 30%;
+    }
+    
+    .button-pago{
+        width: 30%;
+    }
+    
+    .continuar-comprando{
+        width: 30%;
+    }
+}
+
+
+
+
+}
+

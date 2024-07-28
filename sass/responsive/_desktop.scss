@@ -1,0 +1,107 @@
+@media (min-width: 769px) {
+
+// NAV
+.body-style-css{
+    .nav.nav-tabs {
+        .nav-item{
+            font-size: 17px;
+            .nav-link.active{
+                width: 30%;
+            }
+        }
+    }
+}
+
+//MAIN - SECTIONS 
+.main-style{ 
+    .section-style{
+        .article-style{
+            width: 30%;
+            .description-style {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+//FOOTER
+
+footer {
+    .form-email{
+        justify-content:center;
+        padding: 10px;
+        ::placeholder{
+            font-size: 16px;
+        }
+
+        .email-label {
+            font-size: 20px;
+            margin-top: 5px;
+            justify-content: center;
+            font-size: 18px;
+        }
+        
+        #email {
+            height: 34px;
+            width: 50%;
+        }
+        .send {
+            padding: 8px 8px;
+            font-size: 14px;
+        }
+        
+    }
+    .footer-style{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerSection {
+        text-align: center;
+        padding: 5px;
+        width: 33%;
+        h4 {
+        font-size: 18px;
+        }
+        .contact-style{
+            font-size: 16px;
+        }
+
+    }
+}
+
+//LOGIN
+
+.login-box{
+    width: 30%;
+    height: 40%;
+    input {
+        width: 80%;
+    }
+    textarea {
+        width: 90%;
+        height: 60%
+    }
+}
+
+.input-center{
+
+    .button-compra{
+        width: 20%;
+    }
+    
+    .button-pago{
+        width: 20%;
+    }
+    
+    .continuar-comprando{
+        width: 20%;
+    }
+}
+
+.articulos{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+}
