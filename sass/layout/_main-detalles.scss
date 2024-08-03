@@ -1,22 +1,29 @@
 .articulos{
     width: 70%;
     margin: 0 auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.697);
 
+}
     .descripcion{
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+        width: 80%;
         font-size: 16px; 
         font-style: italic;
-        margin-left: 10px;
-        text-align: center;
+        text-align:justify;
+        padding: 20px;
+        margin-top: 10px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 
         .discount-style{
             color: $color-discount;
+            text-align: center;
         }
         .bold{
             font-weight: 600;
+            text-align: center;
         }
     }
-}
-
 .center {
     text-align: center;
     input {
@@ -25,11 +32,17 @@
         height: 30px;
     }
     .button-compra{
-        width: 40%;
+        font-weight: 600;
+        margin-top: 50px;
+        width: 30%;
         background-color: #00A650;
-        color: rgb(0, 0, 0);
+        color: map-get($colores, color1 );
         text-align: center;
         border: none;
+        &:hover{
+            background-color: #00cb62df;
+            color: map-get($colores, color2 );
+        }
     }
 }
 

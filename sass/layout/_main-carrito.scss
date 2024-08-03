@@ -3,17 +3,22 @@
 
     .carritoCompras {
         margin-top: 50px;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
+        img {
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
 
         .descripcion{
             font-size: 16px; 
             font-style: italic;
             margin-left: 10px;
             text-align: center;
+            width: 90%;
 
             .prices-style{
-                color: black;
+                color: map-get($colores, color2 );
                 font-style: normal;
                 padding-top: 5px;
             }
@@ -33,7 +38,12 @@
             text-align: center;
             font-size: 18px;
             padding: 5px;
-            color: black;
+            color: map-get($colores, color2 );
+            border: none;
+            outline: none;
+
+
+            background-color: rgba(128, 128, 128, 0.283);
         }
         input {
             margin: 5px;
@@ -47,25 +57,30 @@
     margin-right: 25%;
     
     .button-pago{
+        font-weight: 600;
         width: 60%;
         background-color: #00A650;
-        color: rgb(0, 0, 0);
+        color: map-get($colores, color1 );
         text-align: center;
         margin-left: 30%;
         border: none;
         &:hover{
-            background-color: hsla(139, 100%, 50%, 0.948); 
+            background-color: #00cb62df;
+            color: map-get($colores, color2 );
         }
     }
     
     .continuar-comprando{
+        color: map-get($colores, color1 );
+        font-weight: 600;
         width: 60%;
-        background-color: rgba(112, 126, 122, 0);
+        background-color: hsla(264, 71%, 67%, 0.865);
         text-align: center;
         margin-left: 30%;
-        border: 1px solid rgb(223, 119, 232);
+        border: 1px solid hsl(264, 71%, 67%);
         &:hover{
-            background-color: rgb(223, 119, 232);
+            background-color: hsl(264, 71%, 67%);
+            color: map-get($colores, color2 );
         }
     }
 

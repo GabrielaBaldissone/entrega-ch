@@ -71,6 +71,8 @@ footer {
 
 //LOGIN
 
+
+
 .login-box{
     width: 30%;
     height: 40%;
@@ -80,6 +82,11 @@ footer {
     textarea {
         width: 90%;
         height: 60%
+    }
+    .form-login{
+        label {
+            font-size: 16px;
+        }
     }
 }
 

@@ -54,7 +54,7 @@ footer {
             }
         }
         .footer-name {
-            color: map-get($colores, color1 );
+            color: hsl(264, 71%, 67%);
             margin-bottom: 2%;
             font-size: 18px;
             font-weight: 600;
@@ -68,7 +68,7 @@ footer {
         }
     }
     .copyring-style{
-        font-size: 10px;
+        font-size: 12px;
         margin-left: 5px;
         color: map-get($colores, color2 );
         margin-bottom: 0;

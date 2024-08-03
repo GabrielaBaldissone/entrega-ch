@@ -9,7 +9,7 @@
   font-weight: 400;
   font-style: italic;
   background: white;
-  background: linear-gradient(180deg, white 0%, rgba(156, 156, 160, 0.80042) 76%); }
+  background: linear-gradient(180deg, white 0%, rgba(209, 209, 210, 0.8) 76%); }
   .body-style-css .nav.nav-tabs {
     width: 100%;
     background-color: white; }
@@ -123,7 +123,8 @@
   width: 90%; }
   .main-style .section-style {
     width: 75%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 100px; }
     .main-style .section-style .article-style {
       margin: 10px;
       padding: 10px;
@@ -152,12 +153,11 @@
 .user-icon {
   margin: 0 auto;
   margin-top: 7px;
-  background-color: white;
   text-align: center;
   border-radius: 150px 150px 0 0;
   height: 50px;
   width: 70px;
-  color: #b29f91; }
+  color: #835eba; }
   .user-icon .userline {
     margin-top: 15px;
     font-size: 38px; }
@@ -167,7 +167,10 @@
   width: 60%;
   height: 50%;
   border-radius: 20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10vw;
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.508); }
   .login-box .form-login {
     text-align: center;
     color: #747272;
@@ -216,13 +219,17 @@
   margin-top: 10px; }
   .mainCarrito .carritoCompras {
     margin-top: 50px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto; }
+    .mainCarrito .carritoCompras img {
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px; }
     .mainCarrito .carritoCompras .descripcion {
       font-size: 16px;
       font-style: italic;
       margin-left: 10px;
-      text-align: center; }
+      text-align: center;
+      width: 90%; }
       .mainCarrito .carritoCompras .descripcion .prices-style {
         color: black;
         font-style: normal;
@@ -238,7 +245,10 @@
       text-align: center;
       font-size: 18px;
       padding: 5px;
-      color: black; }
+      color: black;
+      border: none;
+      outline: none;
+      background-color: rgba(128, 128, 128, 0.283); }
     .mainCarrito .carritoCompras input {
       margin: 5px; }
 
@@ -246,37 +256,51 @@
   text-align: center;
   margin-right: 25%; }
   .input-center .button-pago {
+    font-weight: 600;
     width: 60%;
     background-color: #00A650;
-    color: black;
+    color: white;
     text-align: center;
     margin-left: 30%;
     border: none; }
     .input-center .button-pago:hover {
-      background-color: rgba(0, 255, 81, 0.948); }
+      background-color: #00cb62df;
+      color: black; }
   .input-center .continuar-comprando {
+    color: white;
+    font-weight: 600;
     width: 60%;
-    background-color: rgba(112, 126, 122, 0);
+    background-color: rgba(159, 111, 231, 0.865);
     text-align: center;
     margin-left: 30%;
-    border: 1px solid #df77e8; }
+    border: 1px solid #9f6fe7; }
     .input-center .continuar-comprando:hover {
-      background-color: #df77e8; }
+      background-color: #9f6fe7;
+      color: black; }
   .input-center input {
     margin: 5px; }
 
 .articulos {
   width: 70%;
-  margin: 0 auto; }
-  .articulos .descripcion {
-    font-size: 16px;
-    font-style: italic;
-    margin-left: 10px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.697); }
+
+.descripcion {
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 16px;
+  font-style: italic;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); }
+  .descripcion .discount-style {
+    color: #00A650;
     text-align: center; }
-    .articulos .descripcion .discount-style {
-      color: #00A650; }
-    .articulos .descripcion .bold {
-      font-weight: 600; }
+  .descripcion .bold {
+    font-weight: 600;
+    text-align: center; }
 
 .center {
   text-align: center; }
@@ -285,11 +309,16 @@
     width: 80%;
     height: 30px; }
   .center .button-compra {
-    width: 40%;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 30%;
     background-color: #00A650;
-    color: black;
+    color: white;
     text-align: center;
     border: none; }
+    .center .button-compra:hover {
+      background-color: #00cb62df;
+      color: black; }
 
 footer .form-email {
   background-image: linear-gradient(to right, #303743, #39484f, #495858, #5e6862, #757770);
@@ -337,7 +366,7 @@ footer .footerSection {
       font-size: 20px;
       color: black; }
   footer .footerSection .footer-name {
-    color: white;
+    color: #9f6fe7;
     margin-bottom: 2%;
     font-size: 18px;
     font-weight: 600;
@@ -349,7 +378,7 @@ footer .footerSection {
     color: black; }
 
 footer .copyring-style {
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 5px;
   color: black;
   margin-bottom: 0; }
@@ -459,6 +488,8 @@ footer .copyring-style {
     .login-box textarea {
       width: 90%;
       height: 60%; }
+    .login-box .form-login label {
+      font-size: 16px; }
   .input-center .button-compra {
     width: 20%; }
   .input-center .button-pago {

@@ -1,12 +1,12 @@
 .user-icon{
     margin: 0 auto;
     margin-top: 7px;
-    background-color: map-get($colores, color1 );
+   
     text-align: center;
     border-radius: 150px 150px 0 0;
     height: 50px;
     width: 70px;
-    color: #b29f91;
+    color: hsl(264, 40%, 55%);
 
     .userline{
         margin-top: 15px;
@@ -20,6 +20,9 @@
     height: 50%;
     border-radius: 20px;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10vw;
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.508);
 
     .form-login{
         text-align: center;
